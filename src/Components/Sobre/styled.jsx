@@ -15,9 +15,9 @@ background-color: #ffffff;
 
 export const Perfil = styled.div`
 
-margin-top: 10vw;
+margin-top: 15vw;
 margin-left: 5vw;
-margin-bottom: 17vw;
+margin-bottom: 18vw;
 pointer-events: none;
 
 
@@ -64,7 +64,7 @@ img{
 export const TextoSobre = styled.div`
 
 user-select: none;
-margin-top: 20vw;
+margin-top: 25vw;
 pointer-events: none;
 margin-left: -8vw;
 
