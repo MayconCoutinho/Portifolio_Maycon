@@ -7,7 +7,7 @@ import react from '../../assets/habilidades/react.png'
 import sass from '../../assets/habilidades/sass.png'
 import styled from '../../assets/habilidades/styled.png'
 import TypeScript from '../../assets/habilidades/TypeScript.png'
-import python from '../../assets/habilidades/python.png'
+// import python from '../../assets/habilidades/python.png'
 import postman from '../../assets/habilidades/postman.png'
 import css from '../../assets/habilidades/css.png'
 import html from '../../assets/habilidades/html.png'
@@ -15,12 +15,13 @@ import github from '../../assets/habilidades/github.png'
 import mysql from '../../assets/habilidades/mysql.png'
 import mongodb from '../../assets/habilidades/mongodb.png'
 import redis from '../../assets/habilidades/redis.png'
-import sqlite from '../../assets/habilidades/sqlite.png'
+// import sqlite from '../../assets/habilidades/sqlite.png'
 import trello from '../../assets/habilidades/trello.png'
 import notion from '../../assets/habilidades/notion.png'
 import discord from '../../assets/habilidades/discord.png'
 import zoom from '../../assets/habilidades/zoom.png'
 import googleMeat from '../../assets/habilidades/googleMeat.png'
+import nextjs from '../../assets/habilidades/nextjs.png'
 import figma from '../../assets/habilidades/figma.png'
 import zeplin from '../../assets/habilidades/zeplin.png'
 import vscode from '../../assets/habilidades/vscode.png'
@@ -38,16 +39,16 @@ export const Habilidades = () => {
                 <h1> Hard skills </h1>
                 <Container>
                     <ContainerDetalhe>
-                        <img src={git} width={100} />
+                        <img src={react} width={100} />
                     </ContainerDetalhe>
 
                     <ContainerDetalhe>
-                        <img src={github} width={100} />
+                        <img src={TypeScript} width={100} />
                     </ContainerDetalhe>
 
                     <ContainerDetalhe>
 
-                        <img src={vscode} width={100} />
+                        <img src={javascript} width={100} />
                     </ContainerDetalhe>
 
                 </Container>
@@ -56,28 +57,15 @@ export const Habilidades = () => {
             <Fundo>
                 <Container>
 
-                    <ContainerDetalhe>
-                        <img src={jest} width={100} />
-                    </ContainerDetalhe>
-                    <ContainerDetalhe>
-
-                        <img src={TypeScript} width={100} />
-                    </ContainerDetalhe>
                     <ContainerDetalhe>
                         <img src={node} width={100} />
                     </ContainerDetalhe>
-                </Container>
-            </Fundo>
-
-            <Fundo>
-                <Container>
                     <ContainerDetalhe>
-                        <img src={react} width={100} />
-                    </ContainerDetalhe> <ContainerDetalhe>
-                        <img src={javascript} width={100} />
-                    </ContainerDetalhe> <ContainerDetalhe>
-                        <img src={css} width={100} />
 
+                        <img src={html} width={100} />
+                    </ContainerDetalhe>
+                    <ContainerDetalhe>
+                        <img src={css} width={100} />
                     </ContainerDetalhe>
                 </Container>
             </Fundo>
@@ -85,20 +73,24 @@ export const Habilidades = () => {
             <Fundo>
                 <Container>
                     <ContainerDetalhe>
-                        <img src={html} width={100} />
+                        <img src={styled} width={100} />
                     </ContainerDetalhe> <ContainerDetalhe>
                         <img src={sass} width={100} />
                     </ContainerDetalhe> <ContainerDetalhe>
-                        <img src={styled} width={100} />
+                        <img src={vscode} width={100} />
+
                     </ContainerDetalhe>
                 </Container>
             </Fundo>
-
 
             <Fundo>
                 <Container>
                     <ContainerDetalhe>
                         <img src={postman} width={100} />
+                    </ContainerDetalhe> <ContainerDetalhe>
+                        <img src={jest} width={100} />
+                    </ContainerDetalhe> <ContainerDetalhe>
+                        <img src={node} width={100} />
                     </ContainerDetalhe>
                 </Container>
             </Fundo>
@@ -125,6 +117,20 @@ export const Habilidades = () => {
                     </ContainerDetalhe>
                 </Container>
             </Fundo>
+
+
+            <Fundo>
+                <Container>
+                    <ContainerDetalhe>
+                        <img src={nextjs} width={100} />
+                    </ContainerDetalhe> <ContainerDetalhe>
+                        <img src={nextjs} width={100} />
+                    </ContainerDetalhe> <ContainerDetalhe>
+                        <img src={nextjs} width={100} />
+                    </ContainerDetalhe>
+                </Container>
+            </Fundo>
+            
 
             <Fundo>
                 <Container>

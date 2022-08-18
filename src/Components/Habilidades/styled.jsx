@@ -35,10 +35,12 @@ export const Certificados = styled.div`
 
 display: flex;
 
+
 img {
     border-radius: 10px;
     margin-left: 20px;
     box-shadow: rgb(0 0 0 / 50%) 20px 20px 50px;
+    pointer-events: none
 
 
 }
@@ -55,6 +57,8 @@ border-radius: 25px;
 img{
 
     margin-top: 50px;
+    pointer-events: none
+
 
 }
 width: 310px;
