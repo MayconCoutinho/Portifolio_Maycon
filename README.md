@@ -1,3 +1,4 @@
 # Portifolio_Maycon
 
-Projeto em andamento
+⏳ Projeto em andamento
+⚙ BETA
