@@ -12,7 +12,7 @@ header {
     width: 100%;
     right: 0;
     position: fixed;
-    background-color: #000000;
+    background-color: #00041f;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,7 +54,7 @@ li {
 .nav-links li {
 
     display: inline-block;
-    padding: 7px 30px;
+    padding: 7px 25px;
 }
 
 .nav-links li {
@@ -79,7 +79,7 @@ button {
 
 button:hover{
 
-    background-color: #00bfbf;
+    background-color: #039696;
 
 
 }

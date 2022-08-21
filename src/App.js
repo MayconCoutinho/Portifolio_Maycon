@@ -10,8 +10,8 @@ function App() {
     <div>
       <Header/>
       <Sobre/>
-      <Habilidades/>
       <Projects/>
+      <Habilidades/>
       <Footer/>
     </div>
   );

@@ -1,6 +1,7 @@
 import React from 'react';
 import './HeaderCss.css'
 
+
 export const Header = () => {
 
 
@@ -12,15 +13,25 @@ const ScrollPossition = (name) =>{
     }
     if(name === "sobre"){
 
-        window.scroll(0, 800) 
+        window.scroll(0, 790) 
 
-    }
-    if(name === "habilidades"){
-        window.scroll(0, 1550) 
     }
     if(name === "projetos"){
+        window.scroll(0, 1530) 
+    }
+    if(name === "habilidades"){
 
-        window.scroll(0, 7020) 
+        window.scroll(0, 2380) 
+
+    }
+    if(name === "Copetencias"){
+
+        window.scroll(0, 6770) 
+
+    }
+    if(name === "Contato"){
+
+        window.scroll(0, 7450) 
 
     }
 
@@ -33,11 +44,12 @@ const ScrollPossition = (name) =>{
                 <ul className='nav-links'>
                     <li onClick={() => ScrollPossition("inicio")}> Inicio </li>
                     <li onClick={() => ScrollPossition("sobre")}> Sobre </li>
-                    <li onClick={() => ScrollPossition("habilidades")}> Habilidades </li>
                     <li onClick={() => ScrollPossition("projetos")}> Projetos </li>
+                    <li onClick={() => ScrollPossition("habilidades")}> Hard Skills </li>
+                    <li onClick={() => ScrollPossition("Copetencias")}> Soft Skills </li>
                 </ul>
             </nav>
-            <button className='cta' href='#'> Contato </button>
+            <button className='cta'  onClick={() => ScrollPossition("Contato")} > Contato </button>
         </header>
     )
 }
