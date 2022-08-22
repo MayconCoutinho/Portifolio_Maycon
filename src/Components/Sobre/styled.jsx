@@ -6,6 +6,7 @@ import fundoSobre from "../../assets/fotoSobre.png"
 
 export const Container = styled.div`
 
+
 background-image: url(${fundo});
 background-repeat: no-repeat;
 
@@ -42,8 +43,9 @@ img{
 @media(max-width: 991px) {
 
 
+
     img{
-        
+        margin-top: 70px;
         width: 300px;
 
 }
@@ -106,6 +108,7 @@ grid-template-columns: 1fr ;
 
 
 img{
+    margin-left: 100px;
     text-align: center;
     width: 180px;
 
@@ -113,11 +116,12 @@ img{
 
 h1 {
 
-margin-left: 20px;
+margin-left: 5px;
 font-size: 20px;
 }
 
 p {
+
 width: 320px;
 font-size: 18px;
 margin-left: 30px;

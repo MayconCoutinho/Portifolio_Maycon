@@ -9,16 +9,21 @@ li, button {
 }
 
 header {
+    display: flex;
+    overflow: hidden;
     width: 100%;
-    right: 0;
     position: fixed;
     background-color: #00041f;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 5%;
+    z-index: 99;  
 }
 
+
+.menu-mobile{
+    display: none;
+}
 
 .logoNome, .logoSobreNome{
 
@@ -80,6 +85,34 @@ button {
 button:hover{
 
     background-color: #039696;
+
+
+}
+
+
+@media(max-width: 991px) {
+
+    .barras{
+        padding-left: 22px;
+        padding-top: 2px;
+        margin-top: 3px;
+        background-color: #ffffff;
+    }
+
+    .menu-mobile{
+        display: block;
+        background-color: #ffffff28;
+
+    }
+
+    .cta  {
+        display: none;
+    }
+
+    nav{
+        display: none;
+    }
+
 
 
 }

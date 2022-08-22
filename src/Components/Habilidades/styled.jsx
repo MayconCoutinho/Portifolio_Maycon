@@ -44,7 +44,7 @@ export const ContainerDetalhe = styled.div`
   p {
     margin-top: 50px;
     text-align: center;
-    color: #a8a8a8;
+    color: #c2c2c2;
     font-weight: 400;
     font-size: 14px;
     width: 250px;

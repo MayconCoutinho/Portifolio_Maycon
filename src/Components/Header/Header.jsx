@@ -49,6 +49,11 @@ const ScrollPossition = (name) =>{
                     <li onClick={() => ScrollPossition("Copetencias")}> Soft Skills </li>
                 </ul>
             </nav>
+            <button className='menu-mobile'> 
+                <div className='barras'></div>
+                <div className='barras'></div>
+                <div className='barras'></div>
+            </button>
             <button className='cta'  onClick={() => ScrollPossition("Contato")} > Contato </button>
         </header>
     )
