@@ -22,7 +22,12 @@ export const Sobre = () => {
                     <p>
                         Desenvolvedor Front-end com experiência em React, JavaScript, TypeScript, NextJS, Styled Components, sass e Jest. Sou apaixonado por desenvolver bibliotecas de componentes, UI e design systems. Também possuo experiência com Back-end e Metodologias Ágeis.
                     </p>
-                    <button onClick={() => alert('teste')}> Download CV </button>
+                    <button >  
+                    <a
+                    href='https://github.com/MayconCoutinho/Portifolio_Maycon/files/9402316/Maycon-Coutinho.pdf'
+                    target='_blank'
+                    > Download CV </a>
+                    </button>
                 </TextoSobre>
 
             </Container>

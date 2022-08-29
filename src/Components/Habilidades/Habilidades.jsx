@@ -88,6 +88,12 @@ export const Habilidades = () => {
                 </ContainerDetalhe>
 
                 <ContainerDetalhe>
+                    <img src={nextjs} width={100} />
+                    <h1> nextjs </h1>
+                    <p> Next.js é uma estrutura da web de desenvolvimento front-end React de código aberto criada por Vercel que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para aplicativos da web baseados em React.  </p>
+                </ContainerDetalhe>
+                
+                <ContainerDetalhe>
                     <img src={styled} width={100} />
                     <h1> Styled Components </h1>
                     <p> styled-components é uma biblioteca para React e React Native que permite que você use estilos ao nível de componente na sua aplicação.</p>
@@ -137,12 +143,6 @@ export const Habilidades = () => {
                     <img src={googleMeat} width={100} />
                     <h1> google meat </h1>
                     <p> Google Meet é um serviço de comunicação por vídeo desenvolvido pelo Google. É um dos dois serviços que substituem a versão anterior do Google Hangouts, o outro é o Google Chat.</p>
-                </ContainerDetalhe>
-
-                <ContainerDetalhe>
-                    <img src={nextjs} width={100} />
-                    <h1> nextjs </h1>
-                    <p> Next.js é uma estrutura da web de desenvolvimento front-end React de código aberto criada por Vercel que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para aplicativos da web baseados em React.  </p>
                 </ContainerDetalhe>
 
                 <ContainerDetalhe>

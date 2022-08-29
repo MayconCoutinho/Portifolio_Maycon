@@ -1,12 +1,13 @@
 import React from 'react';
 import "./index.css";
-
+import { LogoNome, LogoSobreNome} from '../Header/styled';
 
 export const Footer = () => {
 
     return (
         <footer>
-        <h1 className='logoNome' > Maycon <h1 className='logoSobreNome'> Coutinho</h1></h1>
+        <LogoNome> Maycon <LogoSobreNome> Coutinho</LogoSobreNome></LogoNome>
+
         <div className="social-icons-container">
           <a
             href="https://www.linkedin.com/in/maycon-coutinho/"

@@ -1,11 +1,24 @@
 import React from 'react';
-import './HeaderCss.css'
-
+import { MenuMobile, MeuHeader, LogoNome, LogoSobreNome, Barras, ButtonContato, NavLinks} from './styled.jsx';
+import { useState } from 'react';
 
 export const Header = () => {
 
 
+const [menuMobile, setMenuMobileTrue] = useState(false)
+
+const MenuMobileFuncao = () => {
+
+    if(menuMobile === false){
+        setMenuMobileTrue(true)
+    }
+    else{
+        setMenuMobileTrue(false)
+    }
+}
+
 const ScrollPossition = (name) =>{
+
 
     if(name === "inicio"){
 
@@ -38,10 +51,16 @@ const ScrollPossition = (name) =>{
 }
 
     return (
-        <header class="header">
-            <h1 className='logoNome' > Maycon <h1 className='logoSobreNome'> Coutinho</h1></h1>
+
+        <MeuHeader>
+            <LogoNome> Maycon <LogoSobreNome> Coutinho</LogoSobreNome><MenuMobile> <button onClick={() => MenuMobileFuncao()}> 
+                    <Barras></Barras>
+                    <Barras></Barras>
+                    <Barras></Barras>
+            </button></MenuMobile></LogoNome>
+            <NavLinks variant={ menuMobile == true}> 
             <nav>
-                <ul className='nav-links'>
+                <ul>
                     <li onClick={() => ScrollPossition("inicio")}> Inicio </li>
                     <li onClick={() => ScrollPossition("sobre")}> Sobre </li>
                     <li onClick={() => ScrollPossition("projetos")}> Projetos </li>
@@ -49,12 +68,9 @@ const ScrollPossition = (name) =>{
                     <li onClick={() => ScrollPossition("Copetencias")}> Soft Skills </li>
                 </ul>
             </nav>
-            <button className='menu-mobile'> 
-                <div className='barras'></div>
-                <div className='barras'></div>
-                <div className='barras'></div>
-            </button>
-            <button className='cta'  onClick={() => ScrollPossition("Contato")} > Contato </button>
-        </header>
+            </NavLinks>
+            <ButtonContato variant={ menuMobile == true}> <button  onClick={() => ScrollPossition("Contato")} > Contato </button> </ButtonContato>
+
+        </MeuHeader>
     )
 }

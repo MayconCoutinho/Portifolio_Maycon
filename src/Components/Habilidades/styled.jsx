@@ -24,12 +24,14 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 
+
   @media (max-width: 991px) {
     grid-template-columns: 1fr 1fr;
   }
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
+    margin-left: -35px;
   }
 `;
 
@@ -98,6 +100,7 @@ export const Certificados = styled.div`
     img {
       margin-top: 20px;
       width: 300px;
+      margin-left: -30px;
     }
   }
 
@@ -163,6 +166,7 @@ export const Contato = styled.div`
 
   @media (max-width: 991px) {
     width: 300px;
+    margin-left: -30px;
   }
 `;
 
