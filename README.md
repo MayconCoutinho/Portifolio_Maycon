@@ -26,7 +26,6 @@ Styled Components
  
 ## 🖥️ Libs para instalar e visualizar o projeto 
 
-- Axios ➜ npm i axios
 - Styled Components ➜ npm i styled-components 
 
 ## 🧑‍💻 Desenvolvedores  
