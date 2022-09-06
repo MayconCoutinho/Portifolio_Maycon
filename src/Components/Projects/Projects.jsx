@@ -4,8 +4,10 @@ import Pokedex from '../../videos/Pokedex.mp4'
 import Astromatch from '../../videos/Astromatch.mp4'
 import Labex from '../../videos/Labex.mp4'
 import LabeNinja from '../../videos/LabeNinja.mp4'
-import { Container, MainVideo, Titulo, ListVideo, VideoList } from './styled';
+import LabEddit from '../../videos/LabEddit.mp4'
+import Gatinhos from '../../videos/Gatinhos.mp4'
 
+import { Container, MainVideo, Titulo, ListVideo, VideoList } from './styled';
 
 export const Projects = () => {
 
@@ -68,6 +70,17 @@ export const Projects = () => {
                     <VideoList variant={video == LabeNinja} onClick={() => mudarVideo(LabeNinja, "05. LabeNinja","https://github.com/MayconCoutinho/LabeNinja")}>
                         <video src={LabeNinja} muted />
                         <h1> 05. LabeNinja </h1>
+                    </VideoList>
+
+                    <VideoList variant={video == LabEddit} onClick={() => mudarVideo(LabEddit, "06. LabEddit","https://github.com/MayconCoutinho/LabEddit")}>
+                        <video src={LabEddit} muted />
+                        <h1> 06. LabEddit </h1>
+                    </VideoList>
+
+                    
+                    <VideoList variant={video == Gatinhos} onClick={() => mudarVideo(Gatinhos, "07. Scroll Infinito","https://github.com/MayconCoutinho/Api-Gatinhos-Scroll-infinito")}>
+                        <video src={Gatinhos} muted />
+                        <h1> 07. Scroll Infinito </h1>
                     </VideoList>
 
                 </ListVideo>

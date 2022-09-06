@@ -24,7 +24,7 @@ export const Sobre = () => {
                     </p>
                     <button >  
                     <a
-                    href='https://github.com/MayconCoutinho/Portifolio_Maycon/files/9402316/Maycon-Coutinho.pdf'
+                    href='https://github.com/MayconCoutinho/Portifolio_Maycon/files/9489812/MayconCoutinho.pdf'
                     target='_blank'
                     > Download CV </a>
                     </button>
