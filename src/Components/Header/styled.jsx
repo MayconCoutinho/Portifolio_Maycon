@@ -15,10 +15,6 @@ export const MeuHeader = styled.div`
     font-size: 18px;
     
 }
-
-
-
-
   @media (max-width: 991px) {
     display: flow-root;
     text-align: center;

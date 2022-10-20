@@ -47,6 +47,15 @@ background-color: #fff;
 border-radius: 5px;
 padding: 10px;
 
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: none;
+
+}
+
 a {
     color: #006e6e;
     text-decoration: none;
@@ -61,14 +70,13 @@ a {
 h1 {
     color: #333;
     font-size: 23px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 video{
     height: 100%;
     width: 100%;
     border-radius: 5px;
-
 }
 
 `
