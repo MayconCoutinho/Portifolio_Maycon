@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import fundo from "../../assets/fundo.png";
+import fundo from "../../assets/fundo2.png";
 import fundoSobre from "../../assets/fotoSobre.png";
 
 export const Container = styled.div`
@@ -18,13 +18,14 @@ export const Container = styled.div`
 `;
 
 export const Perfil = styled.div`
-  margin-top: 15vw;
-  margin-left: 5vw;
-  margin-bottom: 18vw;
+  margin-top: 16.5vw;
+  margin-left: 10vw;
+  margin-bottom: 10vw;
   pointer-events: none;
 
   img {
-    border-radius: 30%;
+    width: 300px;
+    border-radius: 50%;
     background-color: #036161;
     pointer-events: none;
 
@@ -206,3 +207,24 @@ export const TextoSobre = styled.div`
     }
   }
 `;
+export const Habilidades = styled.div`
+
+
+background-image: url(${fundo});
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  margin: auto;
+
+
+  text-align: center;
+img{
+  width: 60px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  pointer-events: none;
+
+}
+`
+

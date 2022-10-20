@@ -7,7 +7,7 @@ import react from '../../assets/habilidades/react.png'
 import sass from '../../assets/habilidades/sass.png'
 import styled from '../../assets/habilidades/styled.png'
 import TypeScript from '../../assets/habilidades/TypeScript.png'
-// import python from '../../assets/habilidades/python.png'
+import python from '../../assets/habilidades/python.png'
 import postman from '../../assets/habilidades/postman.png'
 import css from '../../assets/habilidades/css.png'
 import html from '../../assets/habilidades/html.png'
@@ -22,13 +22,17 @@ import discord from '../../assets/habilidades/discord.png'
 import zoom from '../../assets/habilidades/zoom.png'
 import googleMeat from '../../assets/habilidades/googleMeat.png'
 import nextjs from '../../assets/habilidades/nextjs.png'
-import figma from '../../assets/habilidades/figma.png'
-import zeplin from '../../assets/habilidades/zeplin.png'
-import vscode from '../../assets/habilidades/vscode.png'
+// import figma from '../../assets/habilidades/figma.png'
+// import zeplin from '../../assets/habilidades/zeplin.png'
+// import vscode from '../../assets/habilidades/vscode.png'
 import canva from '../../assets/habilidades/canva.png'
 import algoritmo from '../../assets/habilidades/certificados/algoritmo.jpg'
 import bancoDados from '../../assets/habilidades/certificados/bancoDados.jpg'
 import pythonCertificado from '../../assets/habilidades/certificados/python.jpg'
+import fundamento from '../../assets/habilidades/certificados/fundamento.png'
+import protocolo from '../../assets/habilidades/certificados/protocolo.png'
+import qualidade from '../../assets/habilidades/certificados/qualidade.png'
+import responsivo from '../../assets/habilidades/certificados/responsivo.png'
 import { ContainerDetalhe, Container, Certificados, Fundo, SoftSkill, SoftSkillCards, CardContato, Contato } from './styled';
 import comunicacao from '../../assets/SoftSkills/comunicacao.png'
 import criatividade from '../../assets/SoftSkills/criatividade.png'
@@ -48,13 +52,25 @@ export const Habilidades = () => {
 
     return (
         <Fundo>
-            <h1> Hard skills </h1>
+            {/* <h1> Hard skills </h1>
             <Container>
                 <ContainerDetalhe>
                     <img src={react} width={100} />
                     <h1> React </h1>
                     <p>
                         React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.</p>
+                </ContainerDetalhe>
+
+                <ContainerDetalhe>
+                    <img src={node} width={100} />
+                    <h1> Node.js </h1>
+                    <p> Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.</p>
+                </ContainerDetalhe>
+
+                <ContainerDetalhe>
+                    <img src={nextjs} width={100} />
+                    <h1> nextjs </h1>
+                    <p> Next.js é uma estrutura da web de desenvolvimento front-end React de código aberto criada por Vercel que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para aplicativos da web baseados em React.  </p>
                 </ContainerDetalhe>
 
                 <ContainerDetalhe>
@@ -66,14 +82,8 @@ export const Habilidades = () => {
                     <img src={javascript} width={100} />
                     <h1> JavaScript </h1>
                     <p> JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.</p>
-
                 </ContainerDetalhe>
 
-                <ContainerDetalhe>
-                    <img src={node} width={100} />
-                    <h1> Node.js </h1>
-                    <p> Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.</p>
-                </ContainerDetalhe>
 
                 <ContainerDetalhe>
                     <img src={html} width={100} />
@@ -87,11 +97,6 @@ export const Habilidades = () => {
                     <p> Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web.</p>
                 </ContainerDetalhe>
 
-                <ContainerDetalhe>
-                    <img src={nextjs} width={100} />
-                    <h1> nextjs </h1>
-                    <p> Next.js é uma estrutura da web de desenvolvimento front-end React de código aberto criada por Vercel que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para aplicativos da web baseados em React.  </p>
-                </ContainerDetalhe>
                 
                 <ContainerDetalhe>
                     <img src={styled} width={100} />
@@ -101,10 +106,16 @@ export const Habilidades = () => {
                     <img src={sass} width={100} />
                     <h1> Sass </h1>
                     <p> Sass é uma linguagem de folhas de estilo concebida inicialmente por Hampton Catlin e desenvolvida por Natalie Weizenbaum. </p>
-                </ContainerDetalhe> <ContainerDetalhe>
+                </ContainerDetalhe>
+                 <ContainerDetalhe>
                     <img src={vscode} width={100} />
                     <h1> VS code </h1>
                     <p> O Visual Studio Code é um editor de código-fonte. Ele inclui suporte para depuração, controle de versionamento Git incorporado... </p>
+                </ContainerDetalhe> 
+
+                <ContainerDetalhe>
+                    <img src={python} width={100} />
+                    <h1> Python </h1>
                 </ContainerDetalhe>
 
                 <ContainerDetalhe>
@@ -125,11 +136,11 @@ export const Habilidades = () => {
                     <img src={mongodb} width={100} />
                     <h1> mongodb </h1>
                     <p> MongoDB é um software de banco de dados orientado a documentos livre NoSQL, o MongoDB usa documentos semelhantes a JSON com esquemas.  </p>
-                </ContainerDetalhe> <ContainerDetalhe>
+                 </ContainerDetalhe> <ContainerDetalhe>
                     <img src={redis} width={100} />
                     <h1> redis </h1>
                     <p> Redis é um armazenamento de estrutura de dados em memória, usado como um banco de dados em memória distribuído de chave-valor, cache e agente de mensagens, com durabilidade opcional. </p>
-                </ContainerDetalhe>
+                </ContainerDetalhe> 
 
                 <ContainerDetalhe>
                     <img src={discord} width={100} />
@@ -153,12 +164,11 @@ export const Habilidades = () => {
                     <img src={zeplin} width={100} />
                     <h1> zeplin </h1>
                     <p> O Zeplin é uma app feito para Mac desenhado para criar trabalhos colaborativos entre designers e desenvolvedores. Desde o princípio, a Zeplin foca em melhorar a colaboração entre designers e engenheiros, fornecendo-lhes as fontes mais precisas do mercado. </p>
-                </ContainerDetalhe> <ContainerDetalhe>
+                </ContainerDetalhe> <ContainerDetalhe>  
                     <img src={canva} width={100} />
                     <h1> canva </h1>
                     <p> Canva é uma plataforma de design gráfico que permite aos usuários criar gráficos de mídia social, apresentações, infográficos, pôsteres e outros conteúdos visuais.  </p>
                 </ContainerDetalhe>
-
                 <ContainerDetalhe>
                     <img src={trello} width={100} />
                     <h1> trello </h1>
@@ -168,12 +178,16 @@ export const Habilidades = () => {
                     <h1> notion </h1>
                     <p> Notion é uma aplicação que fornece componentes tais como notas, bases de dados, quadros, wikis, calendários e lembretes. </p>
                 </ContainerDetalhe>
-            </Container>
+            </Container> */}
             <h1> Certificados </h1>
             <Certificados>
                 <img src={algoritmo} width={400} />
                 <img src={bancoDados} width={400} />
                 <img src={pythonCertificado} width={400} />
+                <img src={protocolo} width={400} />
+                <img src={fundamento} width={400} />
+                <img src={qualidade} width={400} />
+                <img src={responsivo} width={400} />
             </Certificados>
 
             <h1> Soft Skills </h1>

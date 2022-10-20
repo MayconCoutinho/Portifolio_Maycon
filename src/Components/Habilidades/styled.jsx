@@ -4,7 +4,7 @@ export const Fundo = styled.div`
   /* background-image: url('https://i0.wp.com/studioghibli.com.br/wp-content/uploads/2020/04/a-viagem-de-chihiro-chihiro-e-sem-rosto.jpg?fit=1920%2C1024&ssl=1'); */
   /* background-repeat: no-repeat; */
 
-  background-color: #00558d;
+  background-color: #1e78b4;
   padding: 50px;
 
   text-align: center;
@@ -22,8 +22,7 @@ export const Fundo = styled.div`
 
 export const Container = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
 
   @media (max-width: 991px) {
     grid-template-columns: 1fr 1fr;
@@ -41,9 +40,10 @@ export const ContainerDetalhe = styled.div`
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 25px;
+  border-radius: 20px;
 
   p {
+    display: none;
     margin-top: 50px;
     text-align: center;
     color: #c2c2c2;
@@ -54,36 +54,39 @@ export const ContainerDetalhe = styled.div`
   }
 
   h1 {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 0;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
     color: #ebebeb;
   }
 
   img {
+    width: 80px;
     margin-top: 50px;
     pointer-events: none;
   }
 
-  width: 310px;
-  height: 420px;
+  width: 200px;
+  height: 220px;
 
   text-align: center;
 
-  box-shadow: rgb(0 0 0 / 50%) 20px 20px 50px;
-  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: rgb(0 0 0 / 50%) 5px 5px 10px;
+  background-color: #00255c;
   backdrop-filter: blur(5px);
-
 
 `;
 
 export const Certificados = styled.div`
+
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
+  
+
 
   @media (max-width: 991px) {
     grid-template-columns: 1fr 1fr;
@@ -108,6 +111,8 @@ export const Certificados = styled.div`
     border-radius: 10px;
     box-shadow: rgb(0 0 0 / 50%) 20px 20px 50px;
     pointer-events: none;
+    margin-bottom: 20px;
+
   }
 `;
 

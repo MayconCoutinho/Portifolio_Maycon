@@ -19,34 +19,68 @@ const MenuMobileFuncao = () => {
 
 const ScrollPossition = (name) =>{
 
+    if(menuMobile == false){
+
 
     if(name === "inicio"){
 
         window.scroll(0, 0) 
     }
-    if(name === "sobre"){
+    // if(name === "sobre"){
 
-        window.scroll(0, 790) 
+    //     window.scroll(0, 790) 
 
-    }
+    // }
     if(name === "projetos"){
-        window.scroll(0, 1530) 
+        window.scroll(0, 740) 
     }
-    if(name === "habilidades"){
+    if(name === "Certificados"){
 
-        window.scroll(0, 2380) 
+         window.scroll(0, 1620) 
 
-    }
+     }
     if(name === "Copetencias"){
 
-        window.scroll(0, 6770) 
+        window.scroll(0, 2800) 
 
     }
     if(name === "Contato"){
 
-        window.scroll(0, 7450) 
+        window.scroll(0, 3500) 
 
     }
+} 
+
+if(menuMobile == true){
+    if(name === "inicio"){
+
+        window.scroll(0, 0) 
+    }
+    // if(name === "sobre"){
+
+    //     window.scroll(0, 790) 
+
+    // }
+    if(name === "projetos"){
+        window.scroll(0, 1250) 
+    }
+    if(name === "Certificados"){
+
+         window.scroll(0, 2400) 
+
+     }
+    if(name === "Copetencias"){
+
+        window.scroll(0, 4450) 
+
+    }
+    if(name === "Contato"){
+
+        window.scroll(0, 7200) 
+
+    }
+
+}
 
 }
 
@@ -62,9 +96,9 @@ const ScrollPossition = (name) =>{
             <nav>
                 <ul>
                     <li onClick={() => ScrollPossition("inicio")}> Inicio </li>
-                    <li onClick={() => ScrollPossition("sobre")}> Sobre </li>
+                    {/* <li onClick={() => ScrollPossition("sobre")}> Sobre </li> */}
                     <li onClick={() => ScrollPossition("projetos")}> Projetos </li>
-                    <li onClick={() => ScrollPossition("habilidades")}> Hard Skills </li>
+                     <li onClick={() => ScrollPossition("Certificados")}> Certificados </li> 
                     <li onClick={() => ScrollPossition("Copetencias")}> Soft Skills </li>
                 </ul>
             </nav>
