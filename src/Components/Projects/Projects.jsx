@@ -6,6 +6,7 @@ import Labex from '../../videos/Labex.mp4'
 import LabeNinja from '../../videos/LabeNinja.mp4'
 import LabEddit from '../../videos/LabEddit.mp4'
 import Gatinhos from '../../videos/Gatinhos.mp4'
+import Shopper from '../../videos/Shopper.mp4'
 import { Container, MainVideo, Titulo, ListVideo, VideoList } from './styled';
 
 export const Projects = () => {
@@ -33,7 +34,6 @@ export const Projects = () => {
                         Link GitHub 
                     </a>    
                     <p> {descricao}</p>
-
                 </MainVideo>
                 <ListVideo>
                     <VideoList variant={video == ifuture} onClick={() => mudarVideo(ifuture, "01. ifuture","https://github.com/MayconCoutinho/Ifuture","Aplicação criada com 5 programadores. semelhante ao Ifood, com varias funcionalidade como de login, feed, pesquisa, carrinho e perfil do usuário, usando React , HTML, CSS, Java Script e chakra-ui.")}  >
@@ -64,9 +64,12 @@ export const Projects = () => {
                         <video src={Gatinhos} muted />
                         <h1> 07. Scroll Infinito </h1>
                     </VideoList>
+                    <VideoList variant={video == Shopper} onClick={() => mudarVideo(Shopper, "08. Teste Shopper","https://github.com/MayconCoutinho/Front-end-Shopper", "A aplicação consite em um supermercado virtual semelhante a plataforma da Shopper. A aplicação consiste em 3 telas cadastro, home e pagina de erro. Na pagina de cadastrar podemos cadastrar o nome de usuario e data de entrega do pedido, na pagina home podemos escolher os produtos ,cadastrar no carrinho e finalizar a comprar.")}>
+                        <video src={Shopper} muted />
+                        <h1> 08. Teste Shopper </h1>
+                    </VideoList>
                 </ListVideo>
             </Container>
         </>
     )
-
 }
