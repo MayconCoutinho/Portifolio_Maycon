@@ -45,7 +45,7 @@
     width: 50px;
     border-radius: 50px;
     border: 1px solid #f2f2f2;
-    background-image: url(./img/linkedin.png);
+    background-image: url(../../assets/footer/linkedin.png);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -58,11 +58,11 @@
   }
   
   .social-icon:nth-of-type(2) {
-    background-image: url(./img/instagram.png);
+    background-image: url(../../assets/footer/instagram.png);
   }
   
   .social-icon:nth-of-type(3) {
-    background-image: url(./img/whatsapp.png);
+    background-image: url(../../assets/footer/whatsapp.png);
   }
   
   .footer-menu-container {

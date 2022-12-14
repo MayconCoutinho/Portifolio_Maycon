@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import fundo from "../../assets/fundo2.png";
-import fundoSobre from "../../assets/fotoSobre.png";
+import fundo from "../../assets/sobre/fundo.png";
 
 export const Container = styled.div`
   background-image: url(${fundo});
@@ -51,101 +50,7 @@ export const Perfil = styled.div`
       margin-right: 380px;
     }
   }
-`;
-
-export const Maycon = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-
-  background-image: url(${fundoSobre});
-  background-repeat: no-repeat;
-
-  background-size: cover;
-  margin: auto;
-
-  padding-top: 10vw;
-  padding-bottom: 17vw;
-  pointer-events: none;
-
-  color: #ececec;
-
-  div {
-    width: 750px;
-    margin-top: 80px;
-    margin-right: 100px;
-  }
-
-  h1,
-  p {
-    margin-right: 50px;
-    margin-top: 50px;
-    text-transform: none;
-  }
-
-  p {
-    font-size: 20px;
-  }
-
-  img {
-    margin-left: 150px;
-    margin-top: 80px;
-    width: 300px;
-    border-radius: 50%;
-    pointer-events: none;
-  }
-
-  @media (max-width: 1330px) {
-    grid-template-columns: 1fr;
-
-    margin-left: auto;
-    margin-right: auto;
-
-    div {
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    img {
-      margin-left: auto;
-      margin-right: auto;
-      width: 180px;
-    }
-
-    h1 {
-      text-align: center;
-      font-size: 20px;
-    }
-
-    p {
-      width: 320px;
-      font-size: 18px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    @media (max-width: 700px) {
-      grid-template-columns: 1fr;
-
-      img {
-        margin-left: 13%;
-        width: 180px;
-      }
-
-      h1 {
-        margin-right: 400px;
-        text-align: center;
-        font-size: 18px;
-      }
-
-      p {
-        margin-right: 410px;
-        width: 320px;
-        font-size: 18px;
-      }
-    }
-  }
-`;
-
+`
 export const TextoSobre = styled.div`
 
   user-select: none;
