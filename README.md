@@ -4,11 +4,7 @@
 
 ## 📲 User demo ➜ [Link Surge](https://maycon-coutinho.surge.sh/)
 
-<h1 align="center">
 
-https://user-images.githubusercontent.com/60453269/188181830-eb1aa579-1e89-4f50-8180-0633cce45d0c.mp4
-
-</h1>
 
 
 
