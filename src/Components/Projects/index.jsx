@@ -33,7 +33,6 @@ export const Projects = () => {
                         Link GitHub 
                     </a>    
                     <p> {descricao}</p>
-
                 </MainVideo>
                 <ListVideo>
                     <VideoList variant={video === ifuture} onClick={() => mudarVideo(ifuture, "01. ifuture","https://github.com/MayconCoutinho/Ifuture","Aplicação criada com 5 programadores. semelhante ao Ifood, com varias funcionalidade como de login, feed, pesquisa, carrinho e perfil do usuário, usando React , HTML, CSS, Java Script e chakra-ui.")}  >
@@ -68,5 +67,4 @@ export const Projects = () => {
             </Container>
         </>
     )
-
 }
