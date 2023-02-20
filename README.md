@@ -33,97 +33,24 @@
 <a id="Resultados"></a>
 ## 🚀 Resultados 
   > Todos os resultados foram alcançados com sucesso. De modo geral são esses os resultados de cada requisição. 
-
+    
 <br/> 
-  
-### 🎯 PEGAR TODOS OS PRODUTOS CADASTRADO NO BANCO DE DADOS.
-  
-### ```GET``` 
-```URL
- http://localhost:3003/products
-```
-  
-```JSON
-  {
-    "id": "e5a9a1af-c23e-4e10-98fd-ae914f7f6424",
-    "name": "macbook",
-    "category": "laptop",
-    "status": "ACTIVE",
-    "quantity": 10,
-    "created_at": 0,
-    "updated_at": 0,
-    "deleted_at": 0
-  }
-```
-  
-<br /> 
-  
-### 🎯  CRIAR UM PRODUTO ATRAVEZ DO NOME, CATEGORIA E QUANTIDADE.
-  
-### ```POST```  
-  
-```URL
-  http://localhost:3003/products/cadastro
-```
-  
-```JSON
-{
-  "name": "macbook",
-  "category": "laptop",
-  "quantity": 10
-}
-```
-
-<br /> 
-  
-### 🎯  MUDA O VALOR OU O NOME DE ALGUM PRODUTO ATRÁVES DA URL 
-  
-### ```PUT```  
-  
-```URL
-  http://localhost:3003/products/:idProduto/category/video-game
-```
-  
-```JSON
-{
-  "message": "Um produto da tabela = category, foi mudado  para o valor = video-game com sucesso"
-}
-```
-
-<br/> 
-  
-### 🎯  DELETA O O PRODUTO ATRÁVES DA URL 
-  
-### ```DELETE```  
-  
-```URL
- http://localhost:3003/products/:idProduto
-```
-  
-```JSON
-{
-  "message": "O produto com id = bc3ad746-67be-4216-831d-eb8087306592 foi deletado."
-}
-```
-
-<br /> 
 
 <a id="Dependências"></a>
 ## 🧪 Dependências
 > Requisitos para rotar o codigo...
   
 
-## `📖 Dependencies` 
+## `📖 devDependencies` 
 
 ```JSON
   "dependencies": {
-        "cors": "^2.8.5",
-        "dotenv": "^16.0.3",
-        "express": "^4.18.2",
-        "knex": "^2.4.0",
-        "mysql": "^2.18.1",
-        "uuid": "^9.0.0"
-      }
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "styled-components": "^5.3.5",
+    "web-vitals": "^2.1.4"
+  },
 
 ```
 
@@ -169,6 +96,8 @@
 | [<img src="https://user-images.githubusercontent.com/60453269/217899761-dc2d4e4b-3336-419d-9076-79304290aa0a.png" width=300><br><sub> Maycon Coutinho </sub>](https://www.linkedin.com/in/maycon-coutinho/) | ***Hello 😃 Se você chegou até aqui, acredito que gostou do meu projeto, nesse caso temos algo em comum, sendo assim que tal conversamos um pouco? Meu chama no linkedin 😁*** | 
 |---|---|
 
+
+[MayconCoutinhoFullStack.pdf](https://github.com/MayconCoutinho/Portifolio_Maycon/files/10785844/MayconCoutinhoFullStack.pdf)
 
 
 
