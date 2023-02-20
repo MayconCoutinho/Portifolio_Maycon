@@ -17,8 +17,7 @@ export const Container = styled.div`
   @media (max-width: 991px) {
     grid-template-columns: 1fr;
   }
-`;
-
+`
 export const Perfil = styled.div`
   margin-top: 16.5vw;
   margin-bottom:10vw;
@@ -88,7 +87,6 @@ export const TextoSobre = styled.div`
     margin-top: 10px;
     margin: 0;
 
-
     img {
       width: 300px;
     }
@@ -129,4 +127,3 @@ img{
 
 }
 `
-

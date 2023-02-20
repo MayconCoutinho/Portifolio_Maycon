@@ -19,7 +19,6 @@ import aws from '../../assets/habilidades/aws.png'
 import firebase from '../../assets/habilidades/firebase.png'
 
 export const Sobre = () => {
-
     const titulo = "< Resumo />"
     return (
         <>
