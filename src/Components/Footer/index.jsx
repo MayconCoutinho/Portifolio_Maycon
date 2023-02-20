@@ -15,7 +15,7 @@ export const Footer = () => {
             className="social-icon"
           ></a>
           <a
-            href="https://www.instagram.com/mayconcoutin/"
+            onClick={() => {alert("mayconcoutinhoart@gmail.com")}}
             target="_blank"
             className="social-icon"
           ></a>

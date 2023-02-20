@@ -23,9 +23,7 @@ export const Header = () => {
             if (name === "Certificados") {
                 window.scroll(0, 1620)
             }
-            if (name === "Copetencias") {
-                window.scroll(0, 2800)
-            }
+
             if (name === "Contato") {
                 window.scroll(0, 3500)
             }
@@ -40,9 +38,7 @@ export const Header = () => {
             if (name === "Certificados") {
                 window.scroll(0, 2400)
             }
-            if (name === "Copetencias") {
-                window.scroll(0, 4450)
-            }
+
             if (name === "Contato") {
                 window.scroll(0, 7200)
             }
@@ -62,7 +58,6 @@ export const Header = () => {
                         <li onClick={() => ScrollPossition("inicio")}> Inicio </li>
                         <li onClick={() => ScrollPossition("projetos")}> Projetos </li>
                         <li onClick={() => ScrollPossition("Certificados")}> Certificados </li>
-                        <li onClick={() => ScrollPossition("Copetencias")}> Soft Skills </li>
                     </ul>
                 </nav>
             </NavLinks>

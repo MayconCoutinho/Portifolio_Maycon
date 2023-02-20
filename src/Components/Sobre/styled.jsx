@@ -8,8 +8,11 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
 
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
   background-size: cover;
-  margin: auto;
 
   @media (max-width: 991px) {
     grid-template-columns: 1fr;
@@ -18,49 +21,40 @@ export const Container = styled.div`
 
 export const Perfil = styled.div`
   margin-top: 16.5vw;
-  margin-left: 10vw;
-  margin-bottom: 10vw;
+  margin-bottom:10vw;
   pointer-events: none;
 
   img {
     width: 300px;
     border-radius: 50%;
-    background-color: #036161;
     pointer-events: none;
 
   }
 
-  @media (max-width: 1330px) {
-
-
-    img {
-      width: 300px;
-      margin-right: 200px;
-    }
+  @media (max-width: 991px) {
+  img {
+    width: 250px;
+    margin-top: 50px;
+  }
   }
 
-  @media (max-width: 900px) {
-    margin-left: auto;
-    margin-right: auto;
-
-    img {
-      margin-top: 70px;
-      margin-right: 330px;
-      width: 300px;
-      margin-right: 380px;
-    }
-  }
 `
 export const TextoSobre = styled.div`
+  display: grid;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 
   user-select: none;
-  margin-top: 20vw;
+  margin-top: 10vw;
+  margin-right: 80px;
+
   pointer-events: none;
-  margin-right: 8vw;
 
   a {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",sans-serif;
     font-weight: 500;
     font-size: 16px;
     list-style: none;
@@ -69,46 +63,48 @@ export const TextoSobre = styled.div`
     cursor: pointer;
     color: #ffffff;
   }
-
   button {
     border-radius: 5px;
-    margin-top: 50px;
-    margin-left: 18%;
+    margin-top: 40px;
     pointer-events: all;
+    margin-bottom: 60px;
   }
-
   p {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #ececec;
+
     text-transform: none;
+    margin-right: 50px;
   }
-
   h1 {
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 30px;  
+    margin-bottom: 30px;
     color: #0facac;
+    margin-right: 50px;
+
   }
-
-  font-size: 22px;
-
-  color: #ececec;
-
-  width: 700px;
-
   @media (max-width: 991px) {
     margin-top: 10px;
+    margin: 0;
+
 
     img {
       width: 300px;
     }
-
-    h1 {
-      margin-left: 20px;
-    }
-
     p {
-      width: 320px;
+      width: 80%;      
       font-size: 18px;
-      margin-left: 30px;
+      margin: 0;
+      margin-left: 50px;
+    }
+    h1{
+      margin-right: 0;
+    }
+    button{
+      width: 200px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 `;
@@ -125,7 +121,6 @@ background-image: url(${fundo});
   text-align: center;
 img{
   width: 60px;
-  margin-left: 20px;
   margin-bottom: 20px;
   margin-top: 20px;
   pointer-events: none;
