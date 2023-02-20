@@ -97,6 +97,8 @@ export const TextoSobre = styled.div`
       font-size: 18px;
       margin: 0;
       margin-left: 50px;
+      line-height: 150%;
+      text-align: justify;
     }
     h1{
       margin-right: 0;
