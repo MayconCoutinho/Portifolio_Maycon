@@ -5,8 +5,8 @@
 <h1 align="center"> Portifolio </h1>
 
 <p align="center">
-  <b> CRUD Simples de uma Api </b></br>
-  <sub> A api teve como finalidade a criação de um crud para um teste técnico backend, a api de modo geral é bem simples e tem como objetivo gerenciar produtos cadastrados
+  <b> Portifolio com alguns projeto </b></br>
+  <sub> Um portifolio em que tem uma apresentação simples de varios projeto que fiz durante meus estudos
   <sub>
 </p>
 
