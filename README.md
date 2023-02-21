@@ -34,6 +34,10 @@
 ## 🚀 Resultados 
   > Todos os resultados foram alcançados com sucesso. De modo geral são esses os resultados de cada requisição. 
     
+  Sobre | Videos | Certificado | Contato |
+|---|---|---|---|
+![Sobre](https://user-images.githubusercontent.com/60453269/216195912-079d82a0-0ab7-49f3-aa71-414a60b2f767.png) | ![Videos](https://user-images.githubusercontent.com/60453269/216195909-5373005a-2e93-488f-959d-619260fc76a4.png)| ![Certificado](https://user-images.githubusercontent.com/60453269/216195906-bb69cd37-12bb-4deb-aa7f-bbe9c3873bef.png)| ![Contato](https://user-images.githubusercontent.com/60453269/216195904-c6210dc9-2323-474b-8d70-8cda655f1ccc.png)
+  
 <br/> 
 
 <a id="Dependências"></a>
