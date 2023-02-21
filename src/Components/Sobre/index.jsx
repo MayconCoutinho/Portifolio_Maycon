@@ -31,8 +31,7 @@ export const Sobre = () => {
                 <TextoSobre>
                     <h1>{titulo}</h1>
                     <p>
-                        Sou apaixonado por desenvolver bibliotecas de componentes, UI e design systems. Também possuo experiência com Back-end, banco de dados e Metodologias Ágeis. Tenho formação de Web Full-Stack na Labenu e as principais tecnologias usada são o React, Node, SQL e TypeScript. Tenho trabalhos feitos em grupo e individual todos completos e documentados no Github.
-                    </p>
+                    Sou apaixonado por desenvolver bibliotecas de componentes, UI e design systems. Também possuo experiência com Back-end, banco de dados e Metodologias Ágeis. As principais tecnologias que uso são o React.js, Node.js, SQL, NoSQL e TypeScript. Tenho trabalhos feitos em grupo e individual todos completos e documentados no Github.                    </p>
                     <button >
                         <a
                             href='https://github.com/MayconCoutinho/Portifolio_Maycon/files/10785844/MayconCoutinhoFullStack.pdf'

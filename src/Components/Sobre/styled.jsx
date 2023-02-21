@@ -52,7 +52,6 @@ export const TextoSobre = styled.div`
   pointer-events: none;
 
   a {
-    
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -96,7 +95,6 @@ export const TextoSobre = styled.div`
       margin: 0;
       margin-left: 50px;
       line-height: 150%;
-      text-align: justify;
     }
     h1{
       margin-right: 0;
@@ -109,21 +107,16 @@ export const TextoSobre = styled.div`
   }
 `;
 export const Habilidades = styled.div`
-
-
-background-image: url(${fundo});
+  background-image: url(${fundo});
   background-repeat: no-repeat;
-
   background-size: cover;
   margin: auto;
-
-
   text-align: center;
 img{
   width: 60px;
   margin-bottom: 20px;
   margin-top: 20px;
+  margin-left: 25px;
   pointer-events: none;
-
 }
 `
