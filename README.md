@@ -56,23 +56,6 @@
 
 <br /> 
 
-## `📖 devDependencies` 
-
-
-```JSON
-      "devDependencies": {
-        "@types/cors": "^2.8.13",
-        "@types/express": "^4.17.15",
-        "@types/knex": "^0.16.1",
-        "@types/node": "^18.11.18",
-        "@types/uuid": "^9.0.0",
-        "ts-node-dev": "^2.0.0",
-        "typescript": "^4.9.4"
-      }
-
-```
-
-
 <a id="Ideias"></a>
 ## 💡 Possíveis Melhoras
 > Possíveis melhorias no código e no projeto, caso queira voltar e melhorá lo.
@@ -80,9 +63,6 @@
 <br /> 
 
 - [ ] ***- Testa todo o código.*** 
-- [ ] ***- Criar token de confirmação para cada requisição.***
-- [ ] ***- Na parte do deletar produto, além de deletar o produto, criar um log de qual produto foi deletado e quando.***
-- [ ] ***- Quando deletar o produto, deixar ele fora do ar, no entando deixar ele em um backap que só vai ser deletado depois de alguns meses ou dias.***
 
 <br /> 
 
