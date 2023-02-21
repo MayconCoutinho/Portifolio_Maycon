@@ -26,7 +26,7 @@
 <a id="Introdução"></a>
 ## 🧩 Introdução 
 
-  ***⠀⠀⠀⠀Portifolio com todos projetos***
+  ***⠀⠀⠀⠀Portifolio feito de forma simples e intuitiva com sitetema de videos semelhante ao youtube e com alguns de meus principais projetos***
 
 <br/>
 
@@ -63,6 +63,10 @@
 <br /> 
 
 - [ ] ***- Testa todo o código.*** 
+- [ ] ***- Passar todos os dados para um banco de dado.***
+- [ ] ***- Pensar em uma forma interessante de aprensentar projetos backend*** 
+- [ ] ***- Criar um filtro de tecnologia para ver os videos***
+- [ ] ***- Usar tag com as tecnologia em cada video*** 
 
 <br /> 
 
