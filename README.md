@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/60453269/220133933-f8678ec0-0851-44e4-b3ba-555a06e5b058.png" alt="Logo" width="200" height="150" />
+  <img src="https://user-images.githubusercontent.com/60453269/220231805-fed29d92-682d-4a1d-9c0d-a6081793cef7.png" alt="Logo" width="250" height="250" />
 </p>
 
 <h1 align="center"> Portifolio </h1>
