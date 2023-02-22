@@ -34,9 +34,13 @@
 ## 🚀 Resultados 
   > Todos os resultados foram alcançados com sucesso. De modo geral são esses os resultados de cada requisição. 
     
-  Sobre | Videos | Certificado | Contato |
-|---|---|---|---|
-![sobre](https://user-images.githubusercontent.com/60453269/220653855-61630888-16ce-407c-8e1a-8b3f0ee711cf.png) | ![Videos](https://user-images.githubusercontent.com/60453269/220653993-909f8660-c2ea-45b6-87bf-b06dfa6a6313.png)| ![Certificado](https://user-images.githubusercontent.com/60453269/220654198-c913e6c6-f2e1-4c3e-9de3-be45b46020e1.png)| ![Contato](https://user-images.githubusercontent.com/60453269/220654364-4fb7906e-60d6-4d56-9f55-60668add9cbf.png)
+  Sobre | Videos |
+|---|---|
+![sobre](https://user-images.githubusercontent.com/60453269/220653855-61630888-16ce-407c-8e1a-8b3f0ee711cf.png) | ![Videos](https://user-images.githubusercontent.com/60453269/220653993-909f8660-c2ea-45b6-87bf-b06dfa6a6313.png)|
+
+Certificado | Contato |
+|---|---|
+![Certificado](https://user-images.githubusercontent.com/60453269/220654198-c913e6c6-f2e1-4c3e-9de3-be45b46020e1.png)| ![Contato](https://user-images.githubusercontent.com/60453269/220654364-4fb7906e-60d6-4d56-9f55-60668add9cbf.png)
 
 <br/> 
 
