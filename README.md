@@ -75,7 +75,11 @@ Certificado | Contato |
 - [ ] ***- Passar todos os dados para um banco de dado.***
 - [ ] ***- Pensar em uma forma interessante de aprensentar projetos backend*** 
 - [ ] ***- Criar um filtro de tecnologia para ver os videos***
+- [ ] ***- Usar tag/selo com as tecnologia em cada video*** 
+- [ ] ***- Deixar o portifolio mais rapido e com lodin...*** 
 - [ ] ***- Usar tag com as tecnologia em cada video*** 
+- [ ] ***- Video especial o video numero 1 vai ser uma apresentação minha quem sou eu como trabalho meus objetivos como programo e coisas do tipo*** 
+
 
 <br /> 
 
