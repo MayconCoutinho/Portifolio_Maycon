@@ -47,7 +47,7 @@ export const Header = () => {
     return (
 
         <MeuHeader>
-            <LogoNome> Maycon <LogoSobreNome> Coutinho</LogoSobreNome><MenuMobile> <button onClick={() => MenuMobileFuncao()}>
+            <LogoNome> Maycon <LogoSobreNome> Coutinho</LogoSobreNome><MenuMobile> <button className='button-geral' onClick={() => MenuMobileFuncao()}>
                 <Barras></Barras>
                 <Barras></Barras>
                 <Barras></Barras>
@@ -61,7 +61,7 @@ export const Header = () => {
                     </ul>
                 </nav>
             </NavLinks>
-            <ButtonContato variant={menuMobile === true}> <button onClick={() => ScrollPossition("Contato")} > Contato </button> </ButtonContato>
+            <ButtonContato variant={menuMobile === true}> <button className='button-geral' onClick={() => ScrollPossition("Contato")} > Contato </button> </ButtonContato>
         </MeuHeader>
     )
 }

@@ -1,5 +1,0 @@
-1- Deixar o portifolio mais rapido e com lodin...
-2 - selos nos videos de quais habilidades foram usados em cada projeto 
-4 - Colocar todos os videos e imagens no aws 
-6 - video especial o video numero 1 vai ser uma apresentação 
-minha quem sou eu como trabalho meus objetivos como programo e coisas do tipo

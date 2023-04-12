@@ -2,9 +2,9 @@ import styled from "styled-components";
 import fundo from "../../assets/sobre/fundo.png";
 
 export const Container = styled.div`
-  background-image: url(${fundo});
+  background-image: url(${fundo}); 
   background-repeat: no-repeat;
-
+  
   display: grid;
   grid-template-columns: 1fr 1fr;
 
@@ -39,7 +39,6 @@ export const Perfil = styled.div`
 
 `
 export const TextoSobre = styled.div`
-  display: grid;
 
   text-align: center;
   justify-content: center;
@@ -47,7 +46,6 @@ export const TextoSobre = styled.div`
 
   user-select: none;
   margin-top: 10vw;
-  margin-right: 80px;
 
   pointer-events: none;
 
@@ -63,56 +61,60 @@ export const TextoSobre = styled.div`
     color: #ffffff;
   }
   button {
+    margin: 40px 20% 40px 0;
     border-radius: 5px;
-    margin-top: 40px;
     pointer-events: all;
-    margin-bottom: 60px;
+    width: 200px;
+    
   }
   p {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #ececec;
-
     text-transform: none;
-    margin-right: 50px;
+    text-align: left;
+    width: 80%;      
+    line-height: 150%;
+
   }
   h1 {
     font-size: 30px;  
     margin-bottom: 30px;
     color: #0facac;
-    margin-right: 50px;
+    text-align: left;
 
   }
   @media (max-width: 991px) {
     margin-top: 10px;
     margin: 0;
+    text-align: center;
 
+    h1{
+      text-align: center;
+
+    }
+    button{
+      margin-right: 0;
+    }
     img {
       width: 300px;
     }
     p {
       width: 80%;      
       font-size: 18px;
-      margin: 0;
       margin-left: 50px;
       line-height: 150%;
-      text-align: justify;
-    }
-    h1{
-      margin-right: 0;
-    }
-    button{
-      width: 200px;
-      margin-left: auto;
-      margin-right: auto;
     }
   }
 `;
 export const Habilidades = styled.div`
 
 
-background-image: url(${fundo});
-  background-repeat: no-repeat;
+/* background-image: url(${fundo});
+background-repeat: no-repeat; */
+
+background: linear-gradient(90deg, #49494B, #C5AA9D );
+
 
   background-size: cover;
   margin: auto;
@@ -124,6 +126,6 @@ img{
   margin-bottom: 20px;
   margin-top: 20px;
   pointer-events: none;
-
+  margin-left: 10px;
 }
 `

@@ -8,6 +8,7 @@ export const Container = styled.div`
   align-items: flex-start;
   padding: 5px 5%;
   padding-bottom: 120px;
+  
   @media (max-width: 991px) {
     grid-template-columns: 1.5fr 1fr;
     padding: 10px;
@@ -29,23 +30,31 @@ export const MainVideo = styled.div`
   background-color: #fff;
   border-radius: 5px;
   padding: 10px;
+
+  text-align: end;
+
   p {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 15px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-transform: none;
+    text-align: start;
   }
   a {
-    color: #006e6e;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 600;
+    transition: transform .1s ease;
+    margin-right: 20px;
+
     :hover {
-      color: #00b9b9;
+      img {
+        transform: scale(1.02);
+        opacity: 0.90;
+      }
     }
   }
   h1 {
+    text-align: start;
+
     color: #333;
     font-size: 23px;
     padding-top: 5px;
@@ -55,6 +64,7 @@ export const MainVideo = styled.div`
     height: 100%;
     width: 100%;
     border-radius: 5px;
+    margin-bottom: 8px;
   }
 `
 export const ListVideo = styled.div`
@@ -96,4 +106,22 @@ export const VideoList = styled.div`
     width: 100px;
     border-radius: 5px;
   }
+`
+export const TagButton = styled.img`
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 10px;
+    background-image: url(${(props) => props.variant}); 
+    :hover{
+      filter: invert(100%);
+    }
+
+    @media (max-width: 991px) {
+      padding: 5px;
+    }
+`
+export const ContainerTagButtons = styled.div`
+  background-color: #fff;
+  padding: 10px 0 10px 0 ;
 `

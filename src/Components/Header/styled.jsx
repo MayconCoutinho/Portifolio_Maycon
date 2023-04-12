@@ -3,13 +3,13 @@ import styled from "styled-components";
 export const MeuHeader = styled.div`
   display: flex;
   overflow: hidden;
+  z-index: 99;
   width: 100%;
   position: fixed;
   background-color: #00041f;
   justify-content: space-between;
   align-items: center;
   padding: 15px 5%;
-  z-index: 99;
 
   li {
     font-size: 18px;
