@@ -29,10 +29,11 @@ export const Certificados = styled.div`
   margin-left: auto;
       margin-right: auto;
       
-      @media (max-width: 991px) {
+  @media (max-width: 991px) {
     grid-template-columns: 1fr 1fr;
-  grid-template-columns: 350px 350px;
-    img {
+    grid-template-columns: 350px 350px;
+  
+  img {
       margin-top: 20px;
       width: 300px;
     }

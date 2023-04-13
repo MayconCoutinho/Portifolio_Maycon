@@ -9,7 +9,6 @@ import react from '../../assets/habilidades/react.png'
 import sass from '../../assets/habilidades/sass.png'
 import styled from '../../assets/habilidades/styled.png'
 import TypeScript from '../../assets/habilidades/TypeScript.png'
-import python from '../../assets/habilidades/python.png'
 import css from '../../assets/habilidades/css.png'
 import html from '../../assets/habilidades/html.png'
 import mysql from '../../assets/habilidades/mysql.png'
@@ -20,7 +19,7 @@ import firebase from '../../assets/habilidades/firebase.png'
 import docker from '../../assets/habilidades/docker.png'
 
 export const Sobre = () => {
-    const titulo = "< Carreira />"
+    const titulo = "< Sobre />"
     return (
         <>
             <Container>
@@ -60,7 +59,6 @@ export const Sobre = () => {
                 <img src={css} />
                 <img src={sass} />
                 <img src={styled} />
-                <img src={python} />
                 <img src={jest} />
                 <img src={mysql} />
                 <img src={mongodb} />

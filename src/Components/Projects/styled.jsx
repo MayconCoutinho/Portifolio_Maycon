@@ -44,11 +44,14 @@ export const MainVideo = styled.div`
   a {
     transition: transform .1s ease;
     margin-right: 20px;
+    img{
+      border-radius: 50px;
+    }
 
     :hover {
       img {
         transform: scale(1.02);
-        opacity: 0.90;
+        filter: invert(100%);
       }
     }
   }
@@ -113,6 +116,7 @@ export const TagButton = styled.img`
     transition: all 0.3s ease 0s;
     margin-left: 10px;
     background-image: url(${(props) => props.variant}); 
+    border-radius: 50px;
     :hover{
       filter: invert(100%);
     }
