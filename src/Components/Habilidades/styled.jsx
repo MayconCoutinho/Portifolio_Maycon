@@ -15,11 +15,12 @@ export const Fundo = styled.div`
     margin-top: 50px;
     margin-bottom: 100px;
     color: #ffffff;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     font-weight: 200;
     font-size: 50px;
   }
-`
+`;
 export const Certificados = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -27,23 +28,24 @@ export const Certificados = styled.div`
 
   padding-bottom: 50px;
   margin-left: auto;
-      margin-right: auto;
-      
+  margin-right: auto;
+
   @media (max-width: 991px) {
     grid-template-columns: 1fr 1fr;
     grid-template-columns: 350px 350px;
-  
-  img {
+
+    img {
       margin-top: 20px;
       width: 300px;
     }
   }
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
-    
+
     img {
       margin-top: 20px;
       width: 300px;
+      height: auto;
       margin-left: auto;
       margin-right: auto;
     }
@@ -54,4 +56,4 @@ export const Certificados = styled.div`
     pointer-events: none;
     margin-bottom: 20px;
   }
-`
+`;

@@ -8,7 +8,7 @@ export const Container = styled.div`
   align-items: flex-start;
   padding: 5px 5%;
   padding-bottom: 120px;
-  
+
   @media (max-width: 991px) {
     grid-template-columns: 1.5fr 1fr;
     padding: 10px;
@@ -17,7 +17,7 @@ export const Container = styled.div`
     grid-template-columns: 1fr;
     padding: 10px;
   }
-`
+`;
 export const Titulo = styled.div`
   background-color: #ccc;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -25,7 +25,7 @@ export const Titulo = styled.div`
   font-size: 40px;
   text-align: center;
   padding: 40px;
-`
+`;
 export const MainVideo = styled.div`
   background-color: #fff;
   border-radius: 5px;
@@ -42,9 +42,9 @@ export const MainVideo = styled.div`
     text-align: start;
   }
   a {
-    transition: transform .1s ease;
+    transition: transform 0.1s ease;
     margin-right: 20px;
-    img{
+    img {
       border-radius: 50px;
     }
 
@@ -69,7 +69,7 @@ export const MainVideo = styled.div`
     border-radius: 5px;
     margin-bottom: 8px;
   }
-`
+`;
 export const ListVideo = styled.div`
   background-color: #fff;
   border-radius: 5px;
@@ -89,12 +89,13 @@ export const ListVideo = styled.div`
     background-color: #666;
     border-radius: 50px;
   }
-`
+`;
 export const VideoList = styled.div`
   display: flex;
   align-items: center;
   gap: 15px;
-  background-color: ${(props) => props.variant === true ? "#006969" : "#f7f7f7"};
+  background-color: ${(props) =>
+    props.variant === true ? "#006969" : "#f7f7f7"};
   color: ${(props) => (props.variant === true ? "#dfdfdf" : "#353535")};
   border-radius: 5px;
   margin: 10px;
@@ -109,23 +110,37 @@ export const VideoList = styled.div`
     width: 100px;
     border-radius: 5px;
   }
-`
+`;
 export const TagButton = styled.img`
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    margin-left: 10px;
-    background-image: url(${(props) => props.variant}); 
-    border-radius: 50px;
-    :hover{
-      filter: invert(100%);
-    }
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-left: 10px;
+  background-image: url(${(props) => props.variant});
+  border-radius: 50px;
+  filter: ${(props) => (props.variant === true ? "invert(100%)" : "none")};
 
-    @media (max-width: 991px) {
-      padding: 5px;
-    }
-`
+  :hover {
+    filter: invert(100%);
+  }
+
+  @media (max-width: 991px) {
+    padding: 5px;
+  }
+`;
 export const ContainerTagButtons = styled.div`
   background-color: #fff;
-  padding: 10px 0 10px 0 ;
-`
+  padding: 10px 0 10px 0;
+`;
+export const SemVideos = styled.div`
+  display: flex;
+  height: 540px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  p {
+    color: #666;
+    font-weight: 600;
+    text-transform: none;
+  }
+`;
