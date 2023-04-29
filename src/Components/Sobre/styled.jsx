@@ -2,9 +2,9 @@ import styled from "styled-components";
 import fundo from "../../assets/sobre/fundo.png";
 
 export const Container = styled.div`
-  background-image: url(${fundo}); 
+  background-image: url(${fundo});
   background-repeat: no-repeat;
-  
+
   display: grid;
   grid-template-columns: 1fr 1fr;
 
@@ -17,41 +17,38 @@ export const Container = styled.div`
   @media (max-width: 991px) {
     grid-template-columns: 1fr;
   }
-`
+`;
 export const Perfil = styled.div`
   margin-top: 16.5vw;
-  margin-bottom:10vw;
-  pointer-events: none;
+  margin-bottom: 10vw;
+  /* pointer-events: none; */
 
   img {
     width: 300px;
     border-radius: 50%;
-    pointer-events: none;
-
+    /* pointer-events: none; */
   }
 
   @media (max-width: 991px) {
-  img {
-    width: 250px;
-    margin-top: 50px;
+    img {
+      width: 250px;
+      margin-top: 50px;
+    }
   }
-  }
-
-`
+`;
 export const TextoSobre = styled.div`
-
   text-align: center;
   justify-content: center;
   align-items: center;
 
-  user-select: none;
+  /* user-select: none; */
   margin-top: 10vw;
 
-  pointer-events: none;
+  /* pointer-events: none; */
 
   a {
-    
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     font-weight: 500;
     font-size: 16px;
     list-style: none;
@@ -65,7 +62,6 @@ export const TextoSobre = styled.div`
     border-radius: 5px;
     pointer-events: all;
     width: 200px;
-    
   }
   p {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -73,34 +69,31 @@ export const TextoSobre = styled.div`
     color: #ececec;
     text-transform: none;
     text-align: left;
-    width: 80%;      
+    width: 80%;
     line-height: 150%;
-
   }
   h1 {
-    font-size: 30px;  
+    font-size: 30px;
     margin-bottom: 30px;
     color: #0facac;
     text-align: left;
-
   }
   @media (max-width: 991px) {
     margin-top: 10px;
     margin: 0;
     text-align: center;
 
-    h1{
+    h1 {
       text-align: center;
-
     }
-    button{
+    button {
       margin-right: 0;
     }
     img {
       width: 300px;
     }
     p {
-      width: 80%;      
+      width: 80%;
       font-size: 18px;
       margin-left: 50px;
       line-height: 150%;
@@ -108,24 +101,20 @@ export const TextoSobre = styled.div`
   }
 `;
 export const Habilidades = styled.div`
-
-
-/* background-image: url(${fundo});
+  /* background-image: url(${fundo});
 background-repeat: no-repeat; */
 
-background: linear-gradient(90deg, #49494B, #C5AA9D );
-
+  background: linear-gradient(90deg, #49494b, #c5aa9d);
 
   background-size: cover;
   margin: auto;
 
-
   text-align: center;
-img{
-  width: 60px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  pointer-events: none;
-  margin-left: 10px;
-}
-`
+  img {
+    width: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /* pointer-events: none; */
+    margin-left: 10px;
+  }
+`;
