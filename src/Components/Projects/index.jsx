@@ -17,6 +17,7 @@ import {
   SemVideos,
 } from "./styled";
 import { getTagButton, getVideos } from "../../services/firebase";
+import { SortingId } from "../../hook/sortingId";
 
 export const Projects = () => {
   const [video, setVideo] = useState(ifuture);
@@ -35,7 +36,7 @@ export const Projects = () => {
     const resultNoticias = getTagButton();
     resultNoticias.then((response) => {
       const result = response;
-      setTagButton(result);
+      setTagButton(SortingId(result));
     });
   }, []);
 
@@ -49,7 +50,7 @@ export const Projects = () => {
         return item.stack === videoTag;
       });
 
-      setVideoFireBase(mapResult);
+      setVideoFireBase(SortingId(mapResult));
     });
   }, [videoTag]);
 

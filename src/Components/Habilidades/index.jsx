@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Certificados, Fundo } from "./styled";
 import { getCertificados } from "../../services/firebase";
+import { SortingId } from "../../hook/sortingId";
 
 export const Habilidades = () => {
   const [certificados, setCertificados] = useState([]);
@@ -9,7 +10,7 @@ export const Habilidades = () => {
     const resultNoticias = getCertificados();
     resultNoticias.then((response) => {
       const result = response;
-      setCertificados(result);
+      setCertificados(SortingId(result));
     });
   }, []);
 

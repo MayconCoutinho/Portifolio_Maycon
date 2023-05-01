@@ -101,20 +101,17 @@ export const TextoSobre = styled.div`
   }
 `;
 export const Habilidades = styled.div`
-  /* background-image: url(${fundo});
-background-repeat: no-repeat; */
+  margin: auto;
 
-  background: linear-gradient(90deg, #49494b, #c5aa9d);
+  padding: 20px;
+
+  background: linear-gradient(90deg, #414141, #c5a08f);
 
   background-size: cover;
-  margin: auto;
 
   text-align: center;
   img {
     width: 60px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    /* pointer-events: none; */
     margin-left: 10px;
   }
 `;

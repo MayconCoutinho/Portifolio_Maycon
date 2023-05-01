@@ -4,11 +4,12 @@ export const Loading = (loadingTrue, loadingFalse) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    window.addEventListener("load", handleLoad);
+    handleLoad();
+    // window.addEventListener("load", handleLoad);
 
-    return () => {
-      window.removeEventListener("load", handleLoad);
-    };
+    // return () => {
+    //   window.removeEventListener("load", handleLoad);
+    // };
   }, []);
 
   const handleLoad = () => {

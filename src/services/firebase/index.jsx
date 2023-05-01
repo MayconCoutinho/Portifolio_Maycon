@@ -42,3 +42,23 @@ export const getVideos = async () => {
     console.log(error.response);
   }
 };
+export const getSobre = async () => {
+  try {
+    const userCollectionRef = collection(firebaseToken(), "sobre");
+    const querySnapshot = await getDocs(userCollectionRef);
+    const result = querySnapshot.docs.map((doc) => doc.data());
+    return result;
+  } catch (error) {
+    console.log(error.response);
+  }
+};
+export const getCurriculo = async () => {
+  try {
+    const userCollectionRef = collection(firebaseToken(), "curriculo");
+    const querySnapshot = await getDocs(userCollectionRef);
+    const result = querySnapshot.docs.map((doc) => doc.data());
+    return result;
+  } catch (error) {
+    console.log(error.response);
+  }
+};
